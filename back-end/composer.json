@@ -9,9 +9,11 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "ramsey/uuid": "^4.7"
     },
     "require-dev": {
+        "brianium/paratest": "^6.4",
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.0.1",
@@ -23,6 +25,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "Domain\\": "domain/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
